@@ -26,16 +26,16 @@ cd path/to/project
 docker build -t fastapi_todo . 
 ```
 
--Run the container:
+- Run the container:
 ```bash 
 docker run -d -p 8000:8000 fastapi_todo 
 ```
 
--Open your browser and go to : 
+- Open your browser and go to : 
 http://localhost:8000/docs
 
 # Requirements
 All dependencies are already handled in the Docker image. No need to install anything locally.
 
 #
-Tests are included for development purposes, but you don't need to run them unless you're modifying the code."# Fastapi_todo_list" 
+Tests are included for development purposes, but you don't need to run them unless you're modifying the code. 
